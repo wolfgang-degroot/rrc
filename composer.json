@@ -1,0 +1,19 @@
+{
+    "name": "wolfgang-degroot/rrc",
+    "description": "RESTful Remote Control",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WolfgangDeGroot\\RRC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wolfgang de Groot",
+            "email": "wolfgang@wolfgang.space"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
