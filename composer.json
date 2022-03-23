@@ -15,5 +15,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "cronfig/sysinfo": "^1.0",
+        "mikehaertl/php-shellcommand": "^1.6"
+    }
 }
