@@ -4,31 +4,36 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "466583c3d67f15241e89917ff4a362e7",
+    "content-hash": "d57ec065b6fd585b9182a7d4f7293b38",
     "packages": [
         {
-            "name": "cronfig/sysinfo",
-            "version": "1.0.0",
+            "name": "linfo/linfo",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cronfig/sysinfo.git",
-                "reference": "011be5f13081487e02779097aedf6a56d4ab0304"
+                "url": "https://github.com/jrgp/linfo.git",
+                "reference": "aea87565d4fd1124e637581b66a41c8b86ee22bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cronfig/sysinfo/zipball/011be5f13081487e02779097aedf6a56d4ab0304",
-                "reference": "011be5f13081487e02779097aedf6a56d4ab0304",
+                "url": "https://api.github.com/repos/jrgp/linfo/zipball/aea87565d4fd1124e637581b66a41c8b86ee22bb",
+                "reference": "aea87565d4fd1124e637581b66a41c8b86ee22bb",
                 "shasum": ""
             },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.4.0"
+            },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "phpstan/phpstan": "^0.8.4",
-                "phpunit/phpunit": "^6.0"
+                "phpunit/phpunit": "9.4.3"
+            },
+            "suggest": {
+                "ext-com": "On Windows"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Cronfig\\Sysinfo\\": "src"
+                    "Linfo\\": "src/Linfo"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -37,25 +42,26 @@
             ],
             "authors": [
                 {
-                    "name": "\"John Linhart\"",
-                    "email": "john@linhart.email",
-                    "homepage": "https://johnlinhart.com",
-                    "role": "Developer"
+                    "name": "Joe Gillotti",
+                    "email": "joe@joegillotti.com",
+                    "homepage": "http://joegillotti.com",
+                    "role": "Author"
                 }
             ],
-            "description": "Library to get system info and available resources",
+            "description": "App and library for easily parsing and displaying system information of the host, like network/torrents/cpu/memory/usb/pci/sound cards/filesystems/raid array/ipmi/etc.",
+            "homepage": "http://github.com/jrgp/linfo",
             "keywords": [
                 "CPU",
-                "info",
-                "ram",
-                "resources",
+                "health",
+                "linux",
+                "specs",
                 "system"
             ],
             "support": {
-                "issues": "https://github.com/cronfig/sysinfo/issues",
-                "source": "https://github.com/cronfig/sysinfo/tree/1.0.0"
+                "issues": "https://github.com/jrgp/linfo/issues",
+                "source": "https://github.com/jrgp/linfo/tree/v4.0.6"
             },
-            "time": "2017-09-05T19:10:40+00:00"
+            "time": "2021-01-28T17:51:22+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
